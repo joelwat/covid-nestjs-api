@@ -2039,6 +2039,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"async@npm:~1.0.0":
+  version: 1.0.0
+  resolution: "async@npm:1.0.0"
+  checksum: c2c288d651e5b0752b3a7aebe1fd30c648df28e4b4e3f57928db0eeb1e1d73a302d683e5cdf9f1c0c234956f8058c1caa746f2011ab10797356be30bb9faa511
+  languageName: node
+  linkType: hard
+
 "asynckit@npm:^0.4.0":
   version: 0.4.0
   resolution: "asynckit@npm:0.4.0"
@@ -2059,6 +2066,16 @@ __metadata:
   bin:
     atob: bin/atob.js
   checksum: 597c0d1a740bb6522c98bea8fe362ae9420b4203af588d2bd470326d9abd4504264956b8355923d7019a21527ef5e6526a7b4455862ec5178ccd81e0ea289d5f
+  languageName: node
+  linkType: hard
+
+"authorizenet@npm:^1.0.7":
+  version: 1.0.7
+  resolution: "authorizenet@npm:1.0.7"
+  dependencies:
+    request: ^2.72.0
+    winston: ^2.2.0
+  checksum: 38d4513cd339439f847e00a1c939106bff860b33eb4e8b59adc92bfab75fb62d7435bb7f8cc7303a4ab3cae8123d44e5bbdf8ce8e1239767cac3e90ae6c74fe5
   languageName: node
   linkType: hard
 
@@ -2720,6 +2737,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"colors@npm:1.0.x":
+  version: 1.0.3
+  resolution: "colors@npm:1.0.3"
+  checksum: d5b1f35612744af0c24b1f80ec3bb8dccfb4a8441a1883d470295ac81ae8aef6f437ae05662595c1e0c98af27e1ad4e90ccd87f1a124cfc2b7953524f55fc951
+  languageName: node
+  linkType: hard
+
 "colors@npm:^1.1.2":
   version: 1.4.0
   resolution: "colors@npm:1.4.0"
@@ -2939,6 +2963,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"cycle@npm:1.0.x":
+  version: 1.0.3
+  resolution: "cycle@npm:1.0.3"
+  checksum: afa6901859ed2e914ff095a5a5a2a856c2006600506737079d93be2a35172107f4ac57f64535724d42da724d089008b9d9f3dba6b10ae7f71188db184b6dcfa8
+  languageName: node
+  linkType: hard
+
 "dashdash@npm:^1.12.0":
   version: 1.14.1
   resolution: "dashdash@npm:1.14.1"
@@ -3108,6 +3139,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": ^4.6.1
     "@typescript-eslint/parser": ^4.6.1
     "@yarnpkg/pnpify": ^2.4.0
+    authorizenet: ^1.0.7
     eslint: ^7.12.1
     eslint-config-prettier: 7.2.0
     eslint-plugin-prettier: ^3.1.4
@@ -3728,6 +3760,13 @@ __metadata:
   version: 1.4.0
   resolution: "extsprintf@npm:1.4.0"
   checksum: 092e011574324c5cddd78b5a27f869c2703613c1140eb7763aef8f5b0e33769a9b4c7dbcc50acd39b6afebe79bf66adcec73bf3c84e095c5bcfb42306d128ad0
+  languageName: node
+  linkType: hard
+
+"eyes@npm:0.1.x":
+  version: 0.1.8
+  resolution: "eyes@npm:0.1.8"
+  checksum: 8959a893bcace67f89a7239d09558c93942f931d717c3c0520bbda6084c5991c3c4cb6db05858a6542423ffe69f29abb59747fa6b3029e3c051afc405a310760
   languageName: node
   linkType: hard
 
@@ -4857,7 +4896,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"isstream@npm:~0.1.2":
+"isstream@npm:0.1.x, isstream@npm:~0.1.2":
   version: 0.1.2
   resolution: "isstream@npm:0.1.2"
   checksum: 8e6e5c4cf1823562db7035d2e7bac388412060fe9bc6727eca8c608def5aa57709165c51c2e68a2fce6ff0b64d79489501b84715060c5e8a477b87b6cbcd1eca
@@ -6988,7 +7027,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"request@npm:^2.88.2":
+"request@npm:^2.72.0, request@npm:^2.88.2":
   version: 2.88.2
   resolution: "request@npm:2.88.2"
   dependencies:
@@ -7598,6 +7637,13 @@ fsevents@~2.1.2:
     sshpk-sign: bin/sshpk-sign
     sshpk-verify: bin/sshpk-verify
   checksum: 4bd7422634ec3730404186179e5d9ba913accc64449f18d594b3a757a3b81000719adc94cf0c93a7b3da42487ae42404a1f37bfaa7908a60743d4478382b9d78
+  languageName: node
+  linkType: hard
+
+"stack-trace@npm:0.0.x":
+  version: 0.0.10
+  resolution: "stack-trace@npm:0.0.10"
+  checksum: 8e567bd9dc88f739f562e91d127cfe11740c3639900c9ddadbb3d78399171fd7236d8a7622f5a00047c162ec64e1f1869cf45daac11e4482e54ac2d98f8c3391
   languageName: node
   linkType: hard
 
@@ -8674,6 +8720,20 @@ typescript@^4.0.5:
   dependencies:
     execa: ^4.0.2
   checksum: 6e285986c3e2db1eae14da639938ccdd7e78cdccd4b408b173bac81c8214485ed8477fb0d97c67f9f5df722b9ce66d8330f3112d49dae033b16511837867194b
+  languageName: node
+  linkType: hard
+
+"winston@npm:^2.2.0":
+  version: 2.4.5
+  resolution: "winston@npm:2.4.5"
+  dependencies:
+    async: ~1.0.0
+    colors: 1.0.x
+    cycle: 1.0.x
+    eyes: 0.1.x
+    isstream: 0.1.x
+    stack-trace: 0.0.x
+  checksum: edcd5329e011d8a8fc19ad5f7a1accb4560663dc3836d2acb59305686dede4c3d2d33b9140746b7e74ad0a8a7434279495a0babd8754fffbb10064202c4c6919
   languageName: node
   linkType: hard
 
