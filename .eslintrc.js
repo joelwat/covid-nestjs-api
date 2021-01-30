@@ -7,8 +7,10 @@ module.exports = {
   plugins: ['@typescript-eslint/eslint-plugin'],
   extends: [
     'plugin:@typescript-eslint/recommended',
-    'prettier/@typescript-eslint',
-    'plugin:prettier/recommended',
+    'plugin:import/errors',
+    'plugin:import/warnings',
+    'plugin:import/typescript',
+    'airbnb-typescript/base',
   ],
   root: true,
   env: {
@@ -22,4 +24,14 @@ module.exports = {
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
   },
+  settings: {
+    'import/resolver': {
+      node: {
+        extensions: ['.js']
+      }
+    },
+    'import/parsers': {
+      '@typescript-eslint/parser': ['.ts']
+    }
+  }
 };
