@@ -1142,6 +1142,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/moment@npm:2.x.x":
+  version: 2.11.29
+  resolution: "@types/moment@npm:2.11.29"
+  checksum: 5a959431a7268bb1fc698da29178b60b78688aea17e30796902b0f32ab03b8c820947e46360625fdeba53cf8e35bf4db616662ed396feafb68827fde08ad95c2
+  languageName: node
+  linkType: hard
+
 "@types/mysql@npm:^2.15.17":
   version: 2.15.17
   resolution: "@types/mysql@npm:2.15.17"
@@ -2605,6 +2612,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"bsy-error@npm:2.x.x":
+  version: 2.1.2
+  resolution: "bsy-error@npm:2.1.2"
+  checksum: e6191b2865978acd79895cc37b08318ff37e68eca9b2fea60c2ca1559a99ceb4bf01cd2c45a35527b39bf3d0c4c2d706d87663bce2f69796dbd7f075350e8fe4
+  languageName: node
+  linkType: hard
+
+"bsy-validation@npm:^2.8.4":
+  version: 2.8.4
+  resolution: "bsy-validation@npm:2.8.4"
+  dependencies:
+    "@types/moment": 2.x.x
+    bsy-error: 2.x.x
+    moment: 2.x.x
+  checksum: 601993b82920391337b0a51a1c3766c94a64ad8b78c783eddeb2a8d47a0895a388df76d55981dd60786f960da9cb1bec17be1e68da6473d1e4e9ecc8a528f992
+  languageName: node
+  linkType: hard
+
 "buffer-from@npm:1.x, buffer-from@npm:^1.0.0":
   version: 1.1.1
   resolution: "buffer-from@npm:1.1.1"
@@ -3417,6 +3442,7 @@ __metadata:
     "@typescript-eslint/parser": ^4.6.1
     "@yarnpkg/pnpify": ^2.4.0
     authorizenet: ^1.0.7
+    bsy-validation: ^2.8.4
     eslint: ^7.12.1
     eslint-config-airbnb-typescript: ^12.0.0
     eslint-import-resolver-node: ^0.3.4
@@ -6506,6 +6532,13 @@ fsevents@~2.1.2:
   bin:
     mkdirp: bin/cmd.js
   checksum: 9dd9792e891927b14ca02226dbe1daeb717b9517a001620d5e2658bbc72c5e4f06887b6cbcbb60595fa5a56e701073cf250f1ed69c1988a6b89faf9fd6a4d049
+  languageName: node
+  linkType: hard
+
+"moment@npm:2.x.x":
+  version: 2.29.1
+  resolution: "moment@npm:2.29.1"
+  checksum: 86729013febf7160de5b93da69273dd304d674b0224f9544b3abd09a87671ddd2cdd57598261ce57588910d63747ffd5590965e83c790d8bf327083c0e0a06e0
   languageName: node
   linkType: hard
 
