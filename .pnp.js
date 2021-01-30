@@ -45,6 +45,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@nestjs/testing", "virtual:10d0ddd8962b160e8b7988b5b1cf9ce26b9a58b41ec7af94ce9595f61af7631df76c6dd2f22bd9f3088af482b8c60bcf3382616263c556f0e3ba392e203ea268#npm:7.6.7"],
             ["@types/express", "npm:4.17.11"],
             ["@types/jest", "npm:26.0.20"],
+            ["@types/luxon", "npm:1.25.1"],
             ["@types/mysql", "npm:2.15.17"],
             ["@types/node", "npm:14.14.22"],
             ["@types/supertest", "npm:2.0.10"],
@@ -57,6 +58,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-import-resolver-node", "npm:0.3.4"],
             ["eslint-plugin-import", "virtual:10d0ddd8962b160e8b7988b5b1cf9ce26b9a58b41ec7af94ce9595f61af7631df76c6dd2f22bd9f3088af482b8c60bcf3382616263c556f0e3ba392e203ea268#npm:2.22.1"],
             ["jest", "npm:26.6.3"],
+            ["luxon", "npm:1.25.0"],
             ["mysql", "npm:2.18.1"],
             ["reflect-metadata", "npm:0.1.13"],
             ["rimraf", "npm:3.0.2"],
@@ -1507,6 +1509,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@types/keyv", "npm:3.1.1"],
             ["@types/node", "npm:14.14.22"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@types/luxon", [
+        ["npm:1.25.1", {
+          "packageLocation": "./.yarn/cache/@types-luxon-npm-1.25.1-6ff94d71b7-5767c3d4b1.zip/node_modules/@types/luxon/",
+          "packageDependencies": [
+            ["@types/luxon", "npm:1.25.1"]
           ],
           "linkType": "HARD",
         }]
@@ -4201,6 +4212,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@nestjs/testing", "virtual:10d0ddd8962b160e8b7988b5b1cf9ce26b9a58b41ec7af94ce9595f61af7631df76c6dd2f22bd9f3088af482b8c60bcf3382616263c556f0e3ba392e203ea268#npm:7.6.7"],
             ["@types/express", "npm:4.17.11"],
             ["@types/jest", "npm:26.0.20"],
+            ["@types/luxon", "npm:1.25.1"],
             ["@types/mysql", "npm:2.15.17"],
             ["@types/node", "npm:14.14.22"],
             ["@types/supertest", "npm:2.0.10"],
@@ -4213,6 +4225,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-import-resolver-node", "npm:0.3.4"],
             ["eslint-plugin-import", "virtual:10d0ddd8962b160e8b7988b5b1cf9ce26b9a58b41ec7af94ce9595f61af7631df76c6dd2f22bd9f3088af482b8c60bcf3382616263c556f0e3ba392e203ea268#npm:2.22.1"],
             ["jest", "npm:26.6.3"],
+            ["luxon", "npm:1.25.0"],
             ["mysql", "npm:2.18.1"],
             ["reflect-metadata", "npm:0.1.13"],
             ["rimraf", "npm:3.0.2"],
@@ -7417,6 +7430,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["lru-cache", "npm:6.0.0"],
             ["yallist", "npm:4.0.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["luxon", [
+        ["npm:1.25.0", {
+          "packageLocation": "./.yarn/cache/luxon-npm-1.25.0-9f380ab196-3f0d64355b.zip/node_modules/luxon/",
+          "packageDependencies": [
+            ["luxon", "npm:1.25.0"]
           ],
           "linkType": "HARD",
         }]
