@@ -45,6 +45,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@nestjs/testing", "virtual:10d0ddd8962b160e8b7988b5b1cf9ce26b9a58b41ec7af94ce9595f61af7631df76c6dd2f22bd9f3088af482b8c60bcf3382616263c556f0e3ba392e203ea268#npm:7.6.7"],
             ["@types/express", "npm:4.17.11"],
             ["@types/jest", "npm:26.0.20"],
+            ["@types/mysql", "npm:2.15.17"],
             ["@types/node", "npm:14.14.22"],
             ["@types/supertest", "npm:2.0.10"],
             ["@typescript-eslint/eslint-plugin", "virtual:10d0ddd8962b160e8b7988b5b1cf9ce26b9a58b41ec7af94ce9595f61af7631df76c6dd2f22bd9f3088af482b8c60bcf3382616263c556f0e3ba392e203ea268#npm:4.14.1"],
@@ -56,6 +57,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-import-resolver-node", "npm:0.3.4"],
             ["eslint-plugin-import", "virtual:10d0ddd8962b160e8b7988b5b1cf9ce26b9a58b41ec7af94ce9595f61af7631df76c6dd2f22bd9f3088af482b8c60bcf3382616263c556f0e3ba392e203ea268#npm:2.22.1"],
             ["jest", "npm:26.6.3"],
+            ["mysql", "npm:2.18.1"],
             ["reflect-metadata", "npm:0.1.13"],
             ["rimraf", "npm:3.0.2"],
             ["rxjs", "npm:6.6.3"],
@@ -1514,6 +1516,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-mime-npm-1.3.2-ea71878ab3-c354bc1356.zip/node_modules/@types/mime/",
           "packageDependencies": [
             ["@types/mime", "npm:1.3.2"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@types/mysql", [
+        ["npm:2.15.17", {
+          "packageLocation": "./.yarn/cache/@types-mysql-npm-2.15.17-9a727de85e-a71453384f.zip/node_modules/@types/mysql/",
+          "packageDependencies": [
+            ["@types/mysql", "npm:2.15.17"],
+            ["@types/node", "npm:14.14.22"]
           ],
           "linkType": "HARD",
         }]
@@ -3119,6 +3131,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["bignumber.js", [
+        ["npm:9.0.0", {
+          "packageLocation": "./.yarn/cache/bignumber.js-npm-9.0.0-ce190bcd7c-5968a936fb.zip/node_modules/bignumber.js/",
+          "packageDependencies": [
+            ["bignumber.js", "npm:9.0.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["binary-extensions", [
         ["npm:2.2.0", {
           "packageLocation": "./.yarn/cache/binary-extensions-npm-2.2.0-180c33fec7-0f5f5685f3.zip/node_modules/binary-extensions/",
@@ -4180,6 +4201,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@nestjs/testing", "virtual:10d0ddd8962b160e8b7988b5b1cf9ce26b9a58b41ec7af94ce9595f61af7631df76c6dd2f22bd9f3088af482b8c60bcf3382616263c556f0e3ba392e203ea268#npm:7.6.7"],
             ["@types/express", "npm:4.17.11"],
             ["@types/jest", "npm:26.0.20"],
+            ["@types/mysql", "npm:2.15.17"],
             ["@types/node", "npm:14.14.22"],
             ["@types/supertest", "npm:2.0.10"],
             ["@typescript-eslint/eslint-plugin", "virtual:10d0ddd8962b160e8b7988b5b1cf9ce26b9a58b41ec7af94ce9595f61af7631df76c6dd2f22bd9f3088af482b8c60bcf3382616263c556f0e3ba392e203ea268#npm:4.14.1"],
@@ -4191,6 +4213,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-import-resolver-node", "npm:0.3.4"],
             ["eslint-plugin-import", "virtual:10d0ddd8962b160e8b7988b5b1cf9ce26b9a58b41ec7af94ce9595f61af7631df76c6dd2f22bd9f3088af482b8c60bcf3382616263c556f0e3ba392e203ea268#npm:2.22.1"],
             ["jest", "npm:26.6.3"],
+            ["mysql", "npm:2.18.1"],
             ["reflect-metadata", "npm:0.1.13"],
             ["rimraf", "npm:3.0.2"],
             ["rxjs", "npm:6.6.3"],
@@ -7739,6 +7762,19 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["mysql", [
+        ["npm:2.18.1", {
+          "packageLocation": "./.yarn/cache/mysql-npm-2.18.1-8fdb56201f-07c6c6c442.zip/node_modules/mysql/",
+          "packageDependencies": [
+            ["mysql", "npm:2.18.1"],
+            ["bignumber.js", "npm:9.0.0"],
+            ["readable-stream", "npm:2.3.7"],
+            ["safe-buffer", "npm:5.1.2"],
+            ["sqlstring", "npm:2.3.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["nanomatch", [
         ["npm:1.2.13", {
           "packageLocation": "./.yarn/cache/nanomatch-npm-1.2.13-bc9173dbe7-2e1440c570.zip/node_modules/nanomatch/",
@@ -9621,6 +9657,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/sprintf-js-npm-1.0.3-73f0a322fa-51df1bce9e.zip/node_modules/sprintf-js/",
           "packageDependencies": [
             ["sprintf-js", "npm:1.0.3"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["sqlstring", [
+        ["npm:2.3.1", {
+          "packageLocation": "./.yarn/cache/sqlstring-npm-2.3.1-2d4ffafe98-d10f04099c.zip/node_modules/sqlstring/",
+          "packageDependencies": [
+            ["sqlstring", "npm:2.3.1"]
           ],
           "linkType": "HARD",
         }]
