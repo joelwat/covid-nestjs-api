@@ -39,3 +39,6 @@ lerna-debug.log*
 !.yarn/plugins
 !.yarn/releases
 !.yarn/sdks
+
+connections.json
+connections.migrate.json
